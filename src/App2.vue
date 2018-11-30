@@ -1,11 +1,22 @@
 <template>
-  <div id="app">
-    <img
-      alt="Vue logo"
-      src="./assets/logo.png"
-    >
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <test></test>
-    <a href=""></a>
-  </div>
+    <div id="hw1-2">
+        <h1>HW1</h1>
+        <component-hw1></component-hw1>
+    </div>
 </template>
+<script lang="ts">
+import componentHw1 from './components/HW1/componentHw1-2.vue';
+/*
+export default Vue.extend({
+  el: '#hw1',
+  components: { componentHw1 },
+});
+*/
+export default {
+  name: 'app2',
+  components: {
+    componentHw1,
+  },
+};
+</script>
+
