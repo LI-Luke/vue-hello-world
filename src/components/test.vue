@@ -1,5 +1,5 @@
 <template>
-    <h1>主見</h1>
+    <h1>My Vue</h1>
 </template>
 <script>
 export default {
